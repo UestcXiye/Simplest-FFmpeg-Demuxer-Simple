@@ -1,7 +1,6 @@
 // Simplest FFmpeg Demuxer Simple.cpp : 定义控制台应用程序的入口点。
 //
 
-
 /**
 * 最简单的基于 FFmpeg 的视音频分离器（简化版）
 * Simplest FFmpeg Demuxer Simple
@@ -34,9 +33,9 @@
 * This software split a media file (in Container such as MKV, FLV, AVI...)
 * to video and audio bitstream.
 * In this example, it demux a FLV file to H.264 bitstream and MP3 bitstream.
-* 
+*
 * Note:
-* This is a simple version of "Simplest FFmpeg Demuxer". 
+* This is a simple version of "Simplest FFmpeg Demuxer".
 * It is more simple because it doesn't init Output Video/Audio stream's AVFormatContext.
 * It writes AVPacket's data to files directly.
 * The advantages of this method is simple.
